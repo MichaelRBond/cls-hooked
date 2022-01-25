@@ -5,8 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "context.js",
-    "context-legacy.js"
+    "context.js"
   ],
   "scripts": {
     "test": "mocha test/*.js & tap test/tap/*.tap.js",
@@ -36,8 +35,7 @@
   },
   "dependencies": {
     "async-hook-jl": "^1.7.6",
-    "emitter-listener": "^1.0.1",
-    "semver": "^5.4.1"
+    "emitter-listener": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^4.1.0",
